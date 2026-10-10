@@ -1,0 +1,9 @@
+This is to create certificates
+
+python3 -m venv venv
+
+pip install pillow
+
+python3 make_certificates.py synthetic_data.tsv rsafrica_reviewer_template.png
+
+NOTE: the rsafrica_reviewer_template.png is created so that the text is exactly centered vertically and horizontally.
